@@ -3,7 +3,7 @@ from tkinter import *
 import tkinter as tk
 from tkinter import ttk
 
-
+##This file is edited to check reconfiguration
 class RealTimeCurrencyConverter():
     def __init__(self,url):
             self.data = requests.get(url).json()
